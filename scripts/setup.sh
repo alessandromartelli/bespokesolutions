@@ -28,7 +28,6 @@ fi
 
 # .claude/settings.local.json
 if [ ! -f .claude/settings.local.json ]; then
-  # Write valid JSON (strip comment lines from example)
   echo '{"permissions":{"allow":[]}}' > .claude/settings.local.json
   echo -e "${GREEN}✓${RESET} Created .claude/settings.local.json — add personal permission overrides"
 else
