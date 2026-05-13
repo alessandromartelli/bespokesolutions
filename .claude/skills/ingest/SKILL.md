@@ -1,3 +1,15 @@
+---
+name: ingest
+description: Feed a URL or file to the agent and integrate the extracted knowledge into the wiki. Used to grow the knowledge base from external sources (articles, papers, docs).
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: ingest, wiki, knowledge-base, research, karpathy
+---
+
 # /ingest
 
 Feed Claude a URL or file and integrate it into the wiki.

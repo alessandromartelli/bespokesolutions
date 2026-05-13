@@ -1,6 +1,13 @@
 ---
 name: spec
 description: Write a detailed spec from a product requirement or user story. Use when starting any non-trivial feature.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: spec, planning, development, workflow
 ---
 
 Interview the user about this requirement: $ARGUMENTS

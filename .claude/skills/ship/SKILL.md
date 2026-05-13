@@ -2,6 +2,13 @@
 name: ship
 description: Final checks, commit, and open a PR. Run after all verification passes.
 disable-model-invocation: true
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: ship, deploy, git, workflow
 ---
 
 Ship the current work: $ARGUMENTS

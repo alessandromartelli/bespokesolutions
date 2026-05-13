@@ -1,3 +1,15 @@
+---
+name: wiki
+description: Research a topic and add it to the wiki, process the inbox into wiki pages, regenerate the index, or run a wiki health lint. Maintains the Karpathy LLM Wiki knowledge base in Obsidian-readable markdown.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: wiki, knowledge-base, obsidian, research, karpathy
+---
+
 # /wiki
 
 Research a topic and add it to the wiki, or maintain the wiki's health.

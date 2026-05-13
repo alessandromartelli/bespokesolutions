@@ -1,3 +1,15 @@
+---
+name: save
+description: Save durable knowledge from the current conversation to the wiki and update CONTEXT.md. Run at the end of any session that produced decisions, findings, or new understanding.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: save, memory, wiki, knowledge-capture, karpathy
+---
+
 # /save
 
 Save the current conversation as a wiki entry and update CONTEXT.md.

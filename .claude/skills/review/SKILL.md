@@ -1,6 +1,13 @@
 ---
 name: review
 description: Review the current branch diff for correctness, security, style, and surgical violations.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: review, code-quality, security, workflow
 ---
 
 Review the changes on the current branch: $ARGUMENTS

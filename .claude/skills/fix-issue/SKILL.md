@@ -2,6 +2,13 @@
 name: fix-issue
 description: Fix a GitHub issue end-to-end. Runs the full Explore → Plan → Build → Verify → Ship cycle.
 disable-model-invocation: true
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: bug-fix, github, workflow, full-cycle
 ---
 
 Fix GitHub issue: $ARGUMENTS

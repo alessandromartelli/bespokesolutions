@@ -1,6 +1,13 @@
 ---
 name: plan
 description: Create a concrete implementation plan for a spec or task. Always run before touching code on non-trivial tasks.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: plan, architecture, development, workflow
 ---
 
 Read the spec or task description: $ARGUMENTS

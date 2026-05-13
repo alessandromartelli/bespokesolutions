@@ -1,3 +1,15 @@
+---
+name: sales
+description: Master orchestrator for the Bespoke Solutions sales pipeline. Run prospecting, deep research, strategy, copywriting, and outcome capture for the multi-agent outreach workflow.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: sales, outreach, prospecting, SME, B2B, pipeline
+---
+
 # /sales
 
 Master orchestrator for the Bespoke Solutions sales pipeline. Runs the full prospecting-to-outreach workflow.

@@ -1,6 +1,13 @@
 ---
 name: code-simplify
 description: Review recently changed code for over-engineering and simplify it. Run after building a feature.
+version: 1.0.0
+author: Bespoke Solutions
+license: proprietary
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: refactor, simplify, code-quality, workflow
 ---
 
 Simplify the code changed in: $ARGUMENTS
