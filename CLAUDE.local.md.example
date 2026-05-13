@@ -1,0 +1,21 @@
+# Personal Claude overrides — copy to CLAUDE.local.md (gitignored)
+#
+# This file is YOURS. It never gets committed. Use it for:
+# - Personal preferences that don't apply to the whole team
+# - Machine-specific quirks
+# - Reminders about your own habits
+#
+# It is loaded after CLAUDE.md, so it can override anything.
+
+## Personal Preferences
+# Example:
+# - When suggesting shell commands, prefer fish shell syntax
+# - I'm on an M3 Mac; assume arm64 binaries
+
+## My Common Gotchas
+# Example:
+# - IMPORTANT: I always forget to run typecheck before shipping. Remind me.
+
+## Local Paths
+# Example:
+# - Local DB is at postgres://localhost:5432/bespoke_dev

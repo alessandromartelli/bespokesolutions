@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy to settings.local.json (gitignored). Personal permission overrides.",
+  "permissions": {
+    "allow": [
+      // Add commands you want auto-approved on your machine only.
+      // Example: "Bash(brew *)", "Bash(docker *)"
+    ]
+  }
+}
