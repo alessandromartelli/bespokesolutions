@@ -7,20 +7,33 @@ license: proprietary
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: spec, planning, development, workflow
+    tags: [spec, planning, development, workflow]
+    related_skills: [plan]
 ---
 
-Interview the user about this requirement: $ARGUMENTS
+# Spec
 
-Ask about:
-- Goals and success criteria (how will we know it's done?)
+Write a detailed spec from a product requirement or user story before implementation planning.
+
+## Hermes Invocation
+
+Load this skill when the user asks to write a spec, refine a requirement, scope a feature, or turn a rough idea into implementation-ready requirements.
+
+Input is the product requirement, user story, or rough idea supplied by the user. If the user writes Claude-style syntax such as `/spec <requirement>`, treat it as a normal instruction.
+
+## Interview
+
+Ask focused questions about:
+- Goals and success criteria: how will we know it is done?
 - User-facing behavior and edge cases
-- Technical constraints (auth, performance, existing patterns to follow)
-- What is explicitly OUT of scope
+- Technical constraints: auth, performance, existing patterns to follow
+- What is explicitly out of scope
 
-Use the AskUserQuestion tool to ask questions one at a time. Don't ask obvious questions — dig into the hard parts. Keep asking until you have enough to write a complete spec.
+Ask questions one at a time. Do not ask obvious questions; dig into the hard parts. Continue until there is enough information to write a complete spec.
 
-Once done, write the spec to `docs/specs/<slug>.md` with this structure:
+## Output File
+
+Once enough information is gathered, write the spec to `docs/specs/<slug>.md` with this structure:
 
 ```
 # <Feature Name>
@@ -49,4 +62,6 @@ Constraints, patterns to follow, files likely to change.
 Any unresolved decisions.
 ```
 
-After writing, confirm the path and tell the user to open a fresh session with `/plan docs/specs/<slug>.md` to begin implementation.
+## After Writing
+
+Confirm the path and recommend loading the `plan` skill next with the spec path to begin implementation planning.
