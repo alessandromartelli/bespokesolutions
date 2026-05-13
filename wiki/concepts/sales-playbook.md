@@ -1,6 +1,19 @@
 # Sales Playbook
 
-The decision logic for every outreach Bespoke Solutions sends. Updated as we learn what works.
+The decision logic for every outreach Bespoke Solutions sends. The strategist agent reads this file as source of truth.
+
+---
+
+## What We Sell
+
+**AI Employees** — fully managed digital workers for executives at SMEs.
+
+- €4-8K/month subscription per customer
+- Unlimited iteration, agents, support
+- 48-hour onboarding to first working employee
+- Customer never touches tokens, models, or infrastructure
+
+We frame everything in terms of **business outcomes** (revenue, deals closed, hours back), not "time saved" — that phrase is overused and prospects are immune to it.
 
 ---
 
@@ -10,23 +23,19 @@ The decision logic for every outreach Bespoke Solutions sends. Updated as we lea
 
 | Level | Definition | How to identify |
 |---|---|---|
-| **Hot** | Referral or mutual connection | They were introduced or know us already |
-| **Warm** | No connection, clear pain (score 8+/15), decision maker reachable | Research file pain score ≥ 8 |
-| **Cold** | No connection, moderate pain, harder to reach | Research file pain score 5-7 |
+| **Hot** | Referral or mutual connection | Introduced or knows us already |
+| **Warm** | No connection, clear pain (score 8+/15), decision maker reachable | Research pain score ≥ 8 |
+| **Cold** | No connection, moderate pain, harder to reach | Research pain score 5-7 |
 | **Skip** | Low pain, no decision maker, or tech-forward already | Pain score < 5 |
-
----
 
 ### Channel Selection
 
 | Signal | Channel |
 |---|---|
-| Decision maker active on LinkedIn (posts, comments) | LinkedIn DM first |
+| Decision maker posts on LinkedIn | LinkedIn DM first |
 | Found direct email, no LinkedIn activity | Email |
-| Local business in WhatsApp-normal geography (Italy, Spain, LatAm, Middle East) | WhatsApp |
-| Both LinkedIn and email available | LinkedIn → Email (3-day gap) |
-
----
+| WhatsApp-normal geography (Italy, Spain, LatAm, Middle East) + local business | WhatsApp |
+| Both available | LinkedIn → Email (3-day gap) |
 
 ### Goal by Stage
 
@@ -34,49 +43,52 @@ The decision logic for every outreach Bespoke Solutions sends. Updated as we lea
 |---|---|---|
 | Hot + any | Book a call | "Worth 15 minutes?" |
 | Warm + Discover | Get a reply | One specific question |
-| Warm + Nurture | Book a call | "Happy to show you what this could look like" |
+| Warm + Nurture | Book a call | "Happy to show you what your AI employee could look like" |
 | Any + Demo-ready | Send the demo | "I put something together — want to see it?" |
 | Cold + Discover | Get a reply | Specific observation + soft question |
 
----
-
 ### Angles by Warmth
 
-| Warmth | Best angle | Example |
+| Warmth | Angle | Example |
 |---|---|---|
-| Cold | Pain mirror | "I noticed your last 4 Google reviews mention wait times — that's usually fixable with a simple booking system" |
-| Cold | Direct ask | "Is managing online bookings something you're actively looking to improve?" |
-| Warm | Free value | "I put together a draft booking page for Trattoria X — want to take a look?" |
-| Warm | Peer proof | "We helped a restaurant in the same area cut no-shows by 40% with an automated reminder — think there's a similar opportunity here" |
+| Cold | Pain mirror | "I noticed your team takes 3+ days to respond to RFQs — that's usually a €X/month deal-loss issue" |
+| Cold | Direct ask | "Is intake/follow-up speed something you're actively trying to improve?" |
+| Warm | Free value | "I drafted what your intake employee could look like for [firm] — want to see it?" |
+| Warm | Peer proof | "We deployed an AI employee for a [same vertical] in [region] that cut their reporting time by 80% — similar opportunity here" |
 | Hot | Direct ask | "I've been thinking about what we could build for you — got 15 minutes this week?" |
 
 ---
 
-## Service Menu
+## Service Menu (What We Lead With Per Vertical)
 
-What we lead with per vertical:
-
-| Vertical | Lead service | Why |
+| Vertical | Lead with (universal executive pain) | Then add (vertical skill pack) |
 |---|---|---|
-| Restaurant / Food & Bev | Website + review automation | Highest pain, fastest win |
-| Clinic / Wellness | Online booking + reminders | Saves staff hours immediately |
-| Professional Services | Lead capture + follow-up automation | Direct revenue impact |
-| Retail / E-commerce | Online store or upgrade | Obvious missing revenue |
-| Trades | Website + Google presence | No website = no credibility |
-| Real Estate | CRM automation + landing pages | Follow-up speed wins deals |
+| Law firm | Inbox triage + follow-up automation | Intake automation, document drafting |
+| Marketing agency | Inbox triage + follow-up automation | Auto-reporting, pitch deck assembler |
+| Insurance agency | Follow-up automation + meeting prep | Renewal calendar, claim status comms |
+| Manufacturer (SME) | Inbox triage + open-loop tracker | RFQ response drafting, supplier follow-up |
+| Wholesaler | Inbox triage + open-loop tracker | Auto-quote, dormant account reactivation |
+| Real estate | Lead response + nurture | Listing copy generator, buyer nurture |
+
+Universal executive layer is the same across all verticals. The skill pack is what differentiates.
+
+See [[../research/target-verticals|Target Verticals]] for detail per vertical.
 
 ---
 
-## Pricing Tiers (working draft)
+## Pricing
 
-| Tier | What's included | Price range |
+| Tier | What's included | Price |
 |---|---|---|
-| **Starter** | 5-page website | €800–1,500 |
-| **Growth** | Website + 1 automation (booking, reviews, follow-up) | €1,500–3,000 |
-| **AI Partner** | Website + multiple automations + AI agent | €3,000–8,000 |
-| **Retainer** | Ongoing work, updates, new features | €500–2,000/mo |
+| **Pilot** | 1 named AI employee, 4-week engagement, fixed scope | €5,000 one-time |
+| **Subscription — Solo** | 1 named AI employee, unlimited iteration, monthly | €4,000/mo |
+| **Subscription — Team** | Up to 3 named AI employees, full skill pack, unlimited iteration | €6,000/mo |
+| **Subscription — Custom** | 3+ employees, custom skill pack, white-label option | €8,000+/mo |
 
-*Prices are estimates. Update as deals close.*
+**Setup**: 48 hours from signed contract to first working employee.
+**Cancellation**: Monthly, no lock-in.
+
+*Update tiers as deals close and we learn what the market accepts.*
 
 ---
 
@@ -84,17 +96,30 @@ What we lead with per vertical:
 
 | Objection | Response |
 |---|---|
-| "We already have a website" | "I know — I looked at it. The issue isn't having one, it's what it's doing for you. Are you getting leads from it?" |
-| "We don't have the budget" | "Understood. What we build typically pays for itself in [X weeks/months] from [specific outcome]. Want me to show you the math?" |
-| "We handle this internally" | "Makes sense. What I build would free your team from [specific task] — not replace them." |
-| "Send me more info" | "Happy to. Rather than a brochure, can I show you something specific to your business? Takes 10 minutes." |
+| "We already use ChatGPT" | "Most teams do. The difference is yours doesn't know your business yet. Ours moves into your workspace and learns it like a new hire would." |
+| "We don't have the budget" | "Understood. The math is: [Bespoke price] vs. [their current cost of the work being done manually]. Want me to do that math with your numbers?" |
+| "We handle this internally" | "That's the goal. We're not replacing your team — we're giving them an employee who handles what nobody has time for." |
+| "Send me more info" | "Happy to. Rather than a brochure, can I show you what your AI employee would look like? Takes 10 minutes." |
 | "Not the right time" | "Totally fine. When would be a better moment — Q[X]?" |
+| "We're not ready for AI yet" | "Fair. The companies that wait usually wait until their competitors force them to. When that happens, the gap takes 12-18 months to close. The starting cost is the same now or then." |
+| "We tried AI before and it didn't work" | "Most of those failed because they sold a tool, not an employee. What we deploy has a name, an email, persistent memory, and a clear job. It's not a chatbot." |
+
+---
+
+## Sequence Structure (Reference for Copywriter)
+
+Default 4-touch sequence. Each touch stands alone — don't reference previous unless they replied.
+
+- **Touch 1 (Day 0)** — The Hook. Specific observation + low-friction ask.
+- **Touch 2 (Day 3)** — Value Add. New insight, not "just checking in."
+- **Touch 3 (Day 7)** — Concrete Offer. Free draft, audit, or specific idea built for them.
+- **Touch 4 (Day 14)** — Breakup. Short, honest, no pressure. Leave door open.
 
 ---
 
 ## What We're Learning
 
-*Update this section after every 5 prospects.*
+*Updated after every 5 prospects resolved via `/sales close`.*
 
 | What worked | What didn't |
 |---|---|
@@ -107,3 +132,5 @@ What we lead with per vertical:
 - [[../projects/sales-agent|Sales Agent]]
 - [[../projects/brand-assets|Brand Assets]]
 - [[../research/target-verticals|Target Verticals]]
+- [[agent-business-playbook|Agent Business Playbook]]
+- [[../projects/bespoke-solutions|Bespoke Solutions]]

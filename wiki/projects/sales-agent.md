@@ -28,7 +28,7 @@ Orchestrated via `/sales` skill (`.claude/skills/sales/SKILL.md`).
 Every outreach decision is made by crossing three inputs:
 
 **Warmth** (Hot / Warm / Cold)
-× **Vertical** (Restaurant / Professional Services / Retail / Trades / etc.)
+× **Vertical** (Law firm / Marketing agency / Insurance / Manufacturer / Wholesaler / Real estate — see [[../research/target-verticals|Target Verticals]])
 × **Funnel Stage** (Discover / Nurture / Demo-ready / Closing)
 
 = Channel + Goal + Angle + Tone
@@ -74,6 +74,7 @@ See [[brand-assets|Brand Assets]] for the full list. Minimum before first outrea
 ## Related
 
 - [[../concepts/sales-playbook|Sales Playbook]]
+- [[../concepts/agent-business-playbook|Agent Business Playbook]]
 - [[brand-assets|Brand Assets]]
 - [[../research/target-verticals|Target Verticals]]
 - [[bespoke-solutions|Bespoke Solutions]]

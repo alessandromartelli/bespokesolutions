@@ -1,35 +1,33 @@
 # Brand Assets
 
-Everything Bespoke Solutions needs to create before serious outreach begins. Prioritized by when you need it.
+Everything Bespoke Solutions needs before serious outreach. Prioritized by urgency.
 
 ---
 
 ## Priority 1 — Before First Outreach
 
-These block sending any message. You need them now.
+These block sending any message. Build now.
 
-### LinkedIn Profile
-- [ ] Profile photo (professional, not a selfie, good lighting)
-- [ ] Banner image (can be simple — company name + tagline)
-- [ ] Headline: not just "Founder" — what you do and for whom
-  - Example: "I build websites, automations, and AI agents for small businesses | Bespoke Solutions"
-- [ ] About section: 3 paragraphs — who you help, how, and a soft CTA
-- [ ] Featured section: link to website or a case study
+### LinkedIn Profile (each founder)
+- [ ] Professional profile photo
+- [ ] Banner image (Bespoke name + tagline)
+- [ ] Headline format: `[Role] @ Bespoke Solutions | We build AI Employees for [verticals]`
+- [ ] About section: 3 paragraphs — who we help, what we deploy, soft CTA
+- [ ] Featured section: link to whitepaper, demo, or signature case
 
 ### One-liner
-A single sentence that explains what Bespoke does. Used everywhere.
+The single sentence that explains Bespoke. Used everywhere.
 
-Draft: *"We build websites, automations, and AI agents for small businesses — so you spend less time on digital work and more time on your business."*
+> *"We build AI Employees for SMEs — fully managed digital workers that move into your business, learn how it runs, and handle what nobody has time for."*
 
-Refine this until it lands. Test it on a non-technical friend.
+Test it on a non-technical friend. If they nod, it works. If they ask "what's an AI employee?" — refine.
 
 ### Email Signature
 ```
 [Name]
-Bespoke Solutions
-[Phone]
-[Website URL]
-[LinkedIn URL]
+[Role] · Bespoke Solutions
+Intelligent Business Systems
+[email] · [bespokesolutions.io] · [LinkedIn]
 ```
 Keep it short. No inspirational quotes.
 
@@ -39,87 +37,99 @@ Keep it short. No inspirational quotes.
 
 Needed when a prospect says "show me more."
 
-### Website
+### Website (bespokesolutions.io)
 Minimum viable:
-- [ ] Home page: what you do, who for, 3 examples of work or outcomes
-- [ ] Services page: clear list of what you offer with rough pricing tiers
-- [ ] Contact / Book a call page: Calendly or simple form
-- [ ] Portfolio: even 1-2 real or speculative examples
+- [ ] Home: what we do, who for, the AI Employee concept
+- [ ] How it works: stack diagram, 48-hour onboarding, what's included
+- [ ] Pricing: 3 subscription tiers + Pilot option
+- [ ] Verticals: dropdown or section per Tier 1 vertical with the lead service
+- [ ] Book a call: Calendly embed
+- [ ] White paper download (gated or ungated)
 
-Tech: can be Webflow, Framer, or anything modern. Does NOT need to be complex.
-
-### Case Study Template
-For each completed project, capture:
-- [ ] Client vertical and size
-- [ ] Problem before
-- [ ] What was built
-- [ ] Outcome (in numbers if possible: "cut admin time by 5 hours/week")
-
-Format: one page PDF or a web page. Short. Screenshot-heavy.
+Tech: Webflow, Framer, or Astro. Built fast, no over-engineering.
 
 ### Demo Template per Vertical
-Build one generic demo per vertical you're targeting — something you can quickly customize for a specific prospect:
+One generic AI Employee mockup per Tier 1 vertical — easily customizable per prospect.
 
 | Vertical | Demo asset |
 |---|---|
-| Restaurant | Landing page with online booking + review widget |
-| Professional Services | Lead capture page with automated follow-up sequence |
-| Retail | Product page with WhatsApp/email cart recovery |
-| Trades | Simple 3-page site with Google review CTA |
+| Law firm | "Mia" — intake employee handling new client emails, calendar, follow-up |
+| Marketing agency | "Theo" — reporting employee turning analytics into client PDFs |
+| Insurance | "Lena" — renewal employee tracking policies and contacting clients |
+| Manufacturer | "Kai" — RFQ employee drafting first-pass responses from supplier emails |
+| Wholesaler | "Sam" — pricing employee answering quote requests |
+| Real estate | "Mara" — lead-response employee qualifying inbound and routing |
+
+Each demo: a named employee with email, persistent memory in Obsidian, sample 1-day output.
+
+### Case Study Template
+Once we have first client:
+- [ ] Client vertical and size
+- [ ] Before: what was manual / broken
+- [ ] After: what the AI Employee handles
+- [ ] Numbers: hours back, deals closed, response time
+
+Format: one-page PDF + web page version.
+
+### White Paper
+Already drafted: `docs/whitepaper.md`. Needs:
+- [ ] Convert to PDF (use anthropic-skills:pdf skill)
+- [ ] Fill placeholders (contact email, website, LinkedIn)
+- [ ] Optionally: vertical-specific variants
 
 ---
 
-## Priority 3 — As You Grow
-
-Nice to have, not blocking.
+## Priority 3 — As We Grow
 
 ### Logo + Visual Identity
-- [ ] Logo (wordmark is fine — don't over-invest early)
+- [ ] Wordmark (clean, modern, no over-design)
 - [ ] Color palette: 2 brand colors + neutral
-- [ ] Typography: one heading font, one body font
-- [ ] Simple brand guide (1 page — colors, fonts, logo usage)
+- [ ] Typography: heading font + body font
+- [ ] 1-page brand guide
 
-Tools: Figma (free tier), Canva, or ask Claude to generate a brief for a designer.
+Tools: Figma, or a brief sent to a freelance designer.
 
-### One-Pager / Deck
-A single PDF that covers:
-- What Bespoke does
-- Services + pricing tiers
-- 2-3 case studies or examples
-- How to get started
-
-Used when a prospect says "send me something I can share with my partner."
+### Sales Deck
+A 6-10 slide PDF for prospects who ask "send me something I can share with my partner."
+- The problem
+- The AI Employee model
+- The stack and how it works
+- Verticals + lead skill packs
+- Pricing tiers
+- How to start
 
 ### Proposal Template
 For when a prospect is ready to buy:
 - [ ] Cover page
-- [ ] Scope of work (specific to their project)
-- [ ] Timeline
-- [ ] Investment (pricing)
-- [ ] What happens next (signature + deposit)
+- [ ] Scope (employee name(s), skill pack, integrations)
+- [ ] Timeline (48-hour onboarding + monthly cadence)
+- [ ] Investment (tier + monthly)
+- [ ] How to start (signature + first month + setup call)
 
-Tools: Notion, Google Docs, or PandaDoc.
+Tools: PandaDoc, Notion docs, or Google Docs.
 
-### Social Proof
-- [ ] 3-5 testimonials (LinkedIn recommendations or written quotes)
-- [ ] Before/after screenshots of websites you've rebuilt
-- [ ] A short video walkthrough of a demo or finished project
+### Social Proof (post first 3 clients)
+- [ ] 3-5 LinkedIn recommendations
+- [ ] Before/after metrics per client
+- [ ] Short video walkthrough of a deployed AI Employee
 
 ---
 
-## What to Build First This Week
+## What to Build This Week
 
-1. Polish LinkedIn profile
-2. Write the one-liner (test it 5 times in conversation)
-3. Set up email signature
-4. Build a demo for the first vertical you're targeting
+1. Polish all five founders' LinkedIn profiles
+2. Test the one-liner in 5 real conversations
+3. Set up email signatures
+4. Build one vertical demo (recommend: law firm or marketing agency)
+5. Fill the placeholders in `docs/whitepaper.md` and export to PDF
 
-Everything else can wait until you have the first 2-3 conversations happening.
+Everything else can wait until first conversations are happening.
 
 ---
 
 ## Related
 
 - [[../concepts/sales-playbook|Sales Playbook]]
+- [[../concepts/agent-business-playbook|Agent Business Playbook]]
 - [[sales-agent|Sales Agent]]
 - [[bespoke-solutions|Bespoke Solutions]]

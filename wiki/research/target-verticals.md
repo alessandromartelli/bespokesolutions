@@ -1,116 +1,171 @@
 # Target Verticals
 
-The business categories most likely to buy from Bespoke Solutions, with pain signals and outreach notes.
+Where Bespoke Solutions sells AI Employees. Verticals ranked by ROI and decision-maker accessibility.
+
+The pattern across every Tier 1 vertical: **legacy industry, lots of people, wants to be AI-native, decision-maker has budget authority, universal executive pain (too many emails, meetings, follow-ups, open loops).**
 
 ---
 
-## Tier 1 — Best ROI to Target
+## Tier 1 — Target These First
 
-### Restaurants / Food & Beverage
+### Law Firms
 
-**Why they buy**: They're busy, non-technical, and losing money every day with no online booking or review management.
+**Why they buy**: Partners bill hours but spend half their day on admin, follow-up, and document drafting. Every hour automated is direct revenue back.
 
-**Pain signals to look for**:
-- No online booking (phone-only reservations)
-- Google reviews with no owner responses, or slow responses
-- Facebook page as their "website"
-- No menu on their site, or a PDF that hasn't been updated
-- Competitors have online ordering, they don't
+**Universal executive pain**: Email overload, intake bottlenecks, document repetition.
 
-**Lead service**: Website + booking automation + review response automation
-**Price range**: €1,500–3,500
-**Decision maker**: Owner or manager (usually the same person)
-**Best channel**: WhatsApp (especially in Southern Europe) or LinkedIn if owner is active
+**Vertical-specific pain**:
+- Manual client intake forms and follow-up
+- Document drafting from precedent
+- Case status updates to clients
+- Conflict checks and CRM hygiene
 
----
+**Skill pack we'd build**:
+- Intake automation + qualified-lead routing
+- Document drafting from precedent library
+- Client status update scheduler
+- Time entry assistant
 
-### Clinics / Health / Wellness
-
-**Why they buy**: Appointment no-shows cost real money. Manual booking wastes staff time.
-
-**Pain signals to look for**:
-- No online booking system (call to book)
-- Reminder systems that are manual or nonexistent
-- Website that doesn't clearly show services + pricing
-- Negative reviews about "hard to reach" or "no reminder"
-
-**Lead service**: Online booking + automated reminders + patient follow-up
-**Price range**: €2,000–5,000
-**Decision maker**: Practice owner or practice manager
-**Best channel**: LinkedIn (for clinic owners) or email
+**Decision maker**: Managing partner or operations partner. LinkedIn active.
 
 ---
 
-### Professional Services (Law, Accounting, Consulting)
+### Marketing Agencies
 
-**Why they buy**: They're expensive per hour and hate admin work. Automating intake and follow-up is an obvious win.
+**Why they buy**: They want to look AI-native to their own clients. Bespoke white-label is the fastest path.
 
-**Pain signals to look for**:
-- No contact form or lead capture on website
-- No clear process for getting a quote / first consultation
-- No LinkedIn content despite having the expertise to post
-- Relies on referrals with no system to track them
+**Universal executive pain**: Project sprawl, client comms, reporting.
 
-**Lead service**: Lead capture page + automated follow-up + CRM setup
-**Price range**: €2,500–6,000
-**Decision maker**: Partner or founder
-**Best channel**: LinkedIn (they're active there)
+**Vertical-specific pain**:
+- Client reporting that eats Mondays
+- Content draft pipelines
+- Pitch deck assembly
+- Lead nurture sequences for the agency itself
 
----
+**Skill pack**:
+- Auto-reporting from analytics → client-ready PDF
+- Content draft pipeline (briefs → drafts → review)
+- Pitch deck assembler from brief + brand
+- Agency inbound nurture
 
-## Tier 2 — Good Targets
-
-### Trades (Plumbers, Electricians, Builders, Cleaners)
-
-**Why they buy**: Most have no website or a terrible one. Local SEO + a modern site = immediate more calls.
-
-**Pain signals**:
-- No website or a free Wix/Google Sites page
-- Low Google review count despite being in business for years
-- No way to get a quote online
-
-**Lead service**: 3-5 page website + Google Business setup + review generation
-**Price range**: €800–2,000
-**Best channel**: WhatsApp or email
+**Decision maker**: Founder or head of operations. Heavy LinkedIn user.
 
 ---
 
-### Retail / E-commerce
+### Insurance Agencies
 
-**Why they buy**: They know they're losing online sales and don't know how to fix it.
+**Why they buy**: Insurance is policy-document-heavy and follow-up-heavy. Both are AI gold.
 
-**Pain signals**:
-- Brick-and-mortar with no online store
-- Old WooCommerce site with bad UX
-- Active social media but no link to buy
+**Universal executive pain**: Renewal cycles, claim follow-ups, broker-carrier coordination.
 
-**Lead service**: Shopify store or landing page + email automation
-**Price range**: €2,000–5,000
-**Best channel**: Email or LinkedIn
+**Vertical-specific pain**:
+- Renewal reminders and policy gathering
+- Claim status comms
+- Quote comparison drafts
 
----
+**Skill pack**:
+- Renewal calendar + outreach
+- Policy doc extraction → comparison
+- Claim status auto-update to clients
 
-### Real Estate Agents / Small Brokerages
-
-**Why they buy**: Speed of follow-up wins deals. Most agents are slow to follow up.
-
-**Pain signals**:
-- Personal website that hasn't been updated
-- No automated follow-up on enquiries
-- Lots of listings but low conversion
-
-**Lead service**: CRM automation + lead response automation
-**Price range**: €1,500–4,000
-**Best channel**: LinkedIn
+**Decision maker**: Agency principal. Email-first, less LinkedIn.
 
 ---
 
-## Tier 3 — Worth Considering
+### Manufacturers (SME)
 
-- **Event planners** — website + booking + automated client comms
-- **Photographers / Videographers** — portfolio site + lead capture
-- **Personal trainers / Coaches** — booking + automated onboarding
-- **Small hotels / B&Bs** — booking automation + review management
+**Why they buy**: Order management, supplier comms, and quote/RFQ workflows are still mostly manual.
+
+**Universal executive pain**: Order tracking, supplier follow-up, RFQ response time.
+
+**Vertical-specific pain**:
+- RFQ response delays losing deals
+- Supplier follow-up chasing
+- Order status communication
+
+**Skill pack**:
+- RFQ intake → first-draft response
+- Supplier follow-up cadence
+- Order status dashboard + customer notifier
+
+**Decision maker**: Owner or operations director. WhatsApp + email.
+
+---
+
+### Wholesalers / Distributors
+
+**Why they buy**: Same pattern as manufacturers — high transaction volume, lots of repeat comms, easily automated.
+
+**Vertical-specific pain**:
+- Pricing requests and quote turnaround
+- Stock availability questions
+- Reorder reminders to dormant accounts
+
+**Skill pack**:
+- Pricing request → auto-quote
+- Stock query auto-answer
+- Dormant account reactivation sequence
+
+**Decision maker**: Owner / sales director. WhatsApp + email.
+
+---
+
+### Real Estate Agencies / Brokerages
+
+**Why they buy**: Speed of follow-up wins listings. Most agents lose deals to slower follow-up.
+
+**Vertical-specific pain**:
+- Lead response time
+- Listing description and marketing copy
+- Buyer/seller nurture sequences
+
+**Skill pack**:
+- Instant lead response + qualifier
+- Listing description generator
+- Long-term buyer nurture
+
+**Decision maker**: Broker or agency principal. LinkedIn + WhatsApp.
+
+---
+
+## Tier 2 — Open If The Conversation Comes To Us
+
+| Vertical | Lead service |
+|---|---|
+| Accounting / Bookkeeping firms | Client comms + document gathering |
+| Recruitment agencies | Candidate sourcing + screening |
+| Trades (high-end, multi-crew) | Quote pipeline + scheduling |
+| Hospitality (small hotel chains) | Booking + review management |
+| Event planners | Vendor coordination + client comms |
+
+We don't actively prospect these — but if a referral or inbound comes in, qualify and engage.
+
+---
+
+## Avoid — Don't Prospect These
+
+| Vertical | Reason |
+|---|---|
+| **Healthcare** | HIPAA, regulatory burden, slow procurement |
+| **Banking / Finance** | Compliance burden, long sales cycles |
+| **Government / Public Sector** | Procurement nightmare, payment delays |
+| **Very small businesses (<5 people)** | Can't afford €4K/mo subscription |
+| **Pure tech companies** | Already AI-native, will build it themselves |
+
+---
+
+## Universal Executive Skills (Built Once, Sold To All Verticals)
+
+These work for every Tier 1 vertical. Build once, deploy everywhere.
+
+- Inbox triage + draft responses
+- Calendar management + meeting prep
+- Follow-up automation across open loops
+- Meeting notes → action items → CRM
+- Daily/weekly executive briefing
+- Document drafting from templates
+
+Then layer vertical-specific skills on top per the tables above.
 
 ---
 
@@ -118,7 +173,7 @@ The business categories most likely to buy from Bespoke Solutions, with pain sig
 
 *Update after every 5 prospects worked through the pipeline.*
 
-| Vertical | Outreach → Reply rate | Reply → Call rate | Call → Deal rate | Notes |
+| Vertical | Reply rate | Reply → Call | Call → Deal | Notes |
 |---|---|---|---|---|
 | — | — | — | — | — |
 
@@ -126,6 +181,8 @@ The business categories most likely to buy from Bespoke Solutions, with pain sig
 
 ## Related
 
+- [[../concepts/agent-business-playbook|Agent Business Playbook]]
 - [[../concepts/sales-playbook|Sales Playbook]]
 - [[../projects/sales-agent|Sales Agent]]
 - [[../projects/brand-assets|Brand Assets]]
+- [[../projects/bespoke-solutions|Bespoke Solutions]]
