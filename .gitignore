@@ -1,40 +1,36 @@
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Dependencies
-node_modules/
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
 
 # Build output
-dist/
-build/
-.next/
-out/
-*.egg-info/
-
-# Logs
-*.log
-logs/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
 # Claude Code personal overrides (do not share)
-CLAUDE.local.md
-.claude/settings.local.json
-
+# Dependencies
+# Environment
+# IDE
+# Logs
+# OS
 # Test coverage
-coverage/
+*.egg-info/
+*.log
+*.pyc
+*.swo
+*.swp
+.DS_Store
+.claude/.session-started
+.claude/settings.local.json
+.env
+.env.*.local
+.env.local
+.idea/
+.next/
 .nyc_output/
+.pytest_cache/
+.superpowers/
+.venv/
+.vscode/
+CLAUDE.local.md
+Thumbs.db
+__pycache__/
+build/
+coverage/
+dist/
+logs/
+node_modules/
+out/

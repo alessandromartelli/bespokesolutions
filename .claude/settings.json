@@ -20,7 +20,9 @@
       "Bash(ls *)",
       "Bash(find *)",
       "Bash(grep *)",
-      "Bash(echo *)"
+      "Bash(echo *)",
+      "Bash(python3 *)",
+      "Bash(pip3 *)"
     ],
     "deny": [
       "Bash(git push --force*)",
@@ -31,6 +33,26 @@
     ]
   },
   "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "SESSION_FLAG=\".claude/.session-started\"; if [ ! -f \"$SESSION_FLAG\" ] || [ $(( $(date +%s) - $(date -r \"$SESSION_FLAG\" +%s 2>/dev/null || echo 0) )) -gt 7200 ]; then mkdir -p .claude && touch \"$SESSION_FLAG\" && echo '╔══════════════════════════════════════╗' && echo '║  SESSION START — READ BEFORE ACTING  ║' && echo '╚══════════════════════════════════════╝' && echo '' && cat CONTEXT.md 2>/dev/null && echo '' && echo '--- wiki/index.md ---' && cat wiki/index.md 2>/dev/null; fi"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo ''; echo '─────────────────────────────────────────────'; echo 'Did this session produce knowledge worth saving?'; echo 'If yes: run /save to update the wiki and CONTEXT.md'; echo '─────────────────────────────────────────────'"
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Edit|Write|MultiEdit",
