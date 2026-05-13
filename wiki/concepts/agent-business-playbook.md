@@ -70,6 +70,78 @@ Every decision-maker, across every vertical, has the same problems:
 
 ---
 
+## MCP Integration Architecture
+
+How Claude Code (local) and Hermes (VPS) share the same tool layer.
+
+```
+   Laptop                                              VPS
+   ┌──────────────────────────────┐                  ┌────────────────────────┐
+   │  Claude Code (terminal)      │                  │  Hermes Agent          │
+   │     │                        │                  │  + Hermes Workspace    │
+   │     ├─ MCP: Hermes ──────────┼──── HTTP ────────┤  hermes mcp serve      │
+   │     ├─ MCP: Composio (HTTP)  │                  │                        │
+   │     ├─ MCP: Memory           │                  │  Same MCPs connected:  │
+   │     └─ MCP: GitHub           │                  │  ├─ Composio           │
+   │                              │                  │  ├─ Agent Mail (REST)  │
+   │  Pushes to GitHub ───────────┼─────┐            │  └─ Memory             │
+   └──────────────────────────────┘     │            │                        │
+                            ┌───────────▼─────────┐  │  Pulls from GitHub ←──┤
+                            │      GitHub         │  └────────────────────────┘
+                            │  bespokesolutions   │
+                            └─────────────────────┘
+```
+
+### Key principle
+
+**Hermes itself is one of the MCPs Claude Code uses.** From the laptop, in Claude Code, you can give Hermes tasks — and Hermes (on the VPS) executes them. Claude Code becomes the developer console; Hermes is the production runtime.
+
+### MCP Stack
+
+| MCP | Transport | Purpose |
+|---|---|---|
+| **hermes** | HTTP (to VPS) | Send tasks to Hermes; read its session/conversation state |
+| **composio** | HTTP | One URL → Gmail, Calendar, LinkedIn, Slack, Notion, 1000+ more |
+| **memory** | stdio (local npx) | Anthropic official knowledge graph — entities + relations across sessions |
+| **github** | stdio (local npx) | Repo management without leaving Claude Code |
+
+### Setup
+
+Run once per machine after populating `.env`:
+
+```bash
+bash scripts/setup-mcps.sh
+```
+
+The script reads keys from `.env` and registers each MCP with Claude Code via `claude mcp add`. Idempotent — safe to re-run.
+
+Verify:
+```bash
+claude mcp list
+```
+
+### Agent Mail special case
+
+Agent Mail doesn't ship an MCP server yet. Integrate it via REST API directly inside skills that need to send/receive email as the agent. The API is HTTP-based and trivial to call from any agent.
+
+### Sync loop (laptop → Hermes)
+
+```
+laptop: edit skill in Claude Code
+     ↓
+laptop: /ship (commit + push)
+     ↓
+GitHub
+     ↓
+VPS: cron every 60s → git pull
+     ↓
+Hermes: reload skills
+     ↓
+new skill is live, callable via the hermes MCP
+```
+
+---
+
 ## Internal/Customer-Facing Tools
 
 | Tool | Purpose |

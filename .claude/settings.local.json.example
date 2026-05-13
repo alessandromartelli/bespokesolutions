@@ -1,9 +1,54 @@
 {
-  "_comment": "Copy to settings.local.json (gitignored). Personal permission overrides.",
+  "_comment": "Copy to settings.local.json (gitignored). Personal MCP servers and permission overrides. See scripts/setup-mcps.sh for the auto-installer.",
+
   "permissions": {
     "allow": [
-      // Add commands you want auto-approved on your machine only.
-      // Example: "Bash(brew *)", "Bash(docker *)"
+      "Bash(ssh hermes-vps *)",
+      "Bash(claude mcp *)"
     ]
+  },
+
+  "mcpServers": {
+    "_comment": "These get added automatically by scripts/setup-mcps.sh. Or run the claude mcp add commands manually.",
+
+    "hermes": {
+      "_note": "Replace with your VPS URL or use stdio if Hermes runs locally",
+      "type": "http",
+      "url": "http://YOUR_VPS_HOST:8080/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HERMES_API_KEY}"
+      }
+    },
+
+    "composio-gmail": {
+      "_note": "Get the MCP URL from Composio dashboard after connecting Gmail",
+      "type": "http",
+      "url": "https://YOUR_COMPOSIO_GMAIL_MCP_URL",
+      "headers": {
+        "X-API-Key": "${COMPOSIO_API_KEY}"
+      }
+    },
+
+    "composio-calendar": {
+      "type": "http",
+      "url": "https://YOUR_COMPOSIO_CALENDAR_MCP_URL",
+      "headers": {
+        "X-API-Key": "${COMPOSIO_API_KEY}"
+      }
+    },
+
+    "memory": {
+      "_note": "Anthropic official knowledge graph memory",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
   }
 }

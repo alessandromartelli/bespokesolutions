@@ -46,7 +46,8 @@ This repo is simultaneously:
 | White paper | v1 at `docs/whitepaper.md` | Fill contact placeholders, export to PDF |
 | Sales pipeline | Built + cleaned | Phase 2 stack signups, then `/sales prospect` |
 | Brand assets | Defined per wiki | Polish LinkedIn profiles + one-liner test |
-| Stack provisioning | Pending user signups | Hermes, Orgo, Composio, Agent Mail, OpenAI, Anthropic |
+| Stack signups | Hermes ✓, OpenAI ✓, Agent Mail ✓, Composio ✓. Orgo deferred. | Run `scripts/setup-mcps.sh` to wire MCPs |
+| MCP wiring | Scaffolding ready in `.claude/settings.local.json.example` | Populate `.env`, then run setup script |
 | First skill pack | Not started | Pick first vertical, build pack |
 | GitHub PR #1 | Pushed for review | Merge via GitHub app |
 
