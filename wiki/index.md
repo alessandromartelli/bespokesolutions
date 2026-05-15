@@ -25,6 +25,7 @@ Claude-maintained knowledge base. Updated every session.
 
 - [[research/dropshipping-niches|Dropshipping Niches]]
 - [[research/target-verticals|Target Verticals]]
+- [[research/prospect-manufacturing-bab|Prospect Research — Manufacturing BAB]]
 
 ---
 

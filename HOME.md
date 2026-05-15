@@ -52,6 +52,7 @@ See [[wiki/projects/sales-agent|Sales Agent]] and [[wiki/projects/brand-assets|B
 
 ## Recent Entries
 
+- [[wiki/research/prospect-manufacturing-bab|Prospect Research — Manufacturing BAB]]
 - [[wiki/projects/sales-agent|Sales Agent]]
 - [[wiki/concepts/sales-playbook|Sales Playbook]]
 - [[wiki/projects/brand-assets|Brand Assets]]

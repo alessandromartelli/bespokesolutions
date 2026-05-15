@@ -2,6 +2,16 @@
 
 Multi-agent pipeline for autonomous prospecting and outreach at Bespoke Solutions.
 
+> **Internal tool** — this is how Bespoke finds and closes its own clients, not a product sold to customers.
+
+---
+
+## Sub-components
+
+| Component | Target | Status |
+|---|---|---|
+| `prospect-manufacturing` | Manufacturing SMEs, BAB + South of France | Data sources identified, workflow being mapped |
+
 ---
 
 ## Architecture
