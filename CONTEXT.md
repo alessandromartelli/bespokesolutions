@@ -22,12 +22,12 @@ Bespoke Solutions — AI-native agency selling **"AI Employees as a Service"** t
 
 | Area | Status | Next action |
 |---|---|---|
-| Repo on VPS | ✓ Cloned | — |
-| France Travail API | ✓ Access granted | Paste keys into `.env` |
-| Prospect workflow (BAB manufacturing) | Data sources identified, workflow not yet mapped | Map end-to-end in VS Code |
-| First Hermes skill | Not started | After workflow is mapped |
+| Prospect pipeline (BAB manufacturing) | ✓ Built + tested. 46 prospects in `inbox/prospects-2026-05-17.md` | Research top prospects via `/sales research` |
+| France Travail API | ✓ Working. 6 APIs activated (Offres d'emploi + ROME 4.0 suite + ROMEo) | — |
+| AgentMail | ✓ `bespokesolutions@agentmail.to` confirmed | — |
+| Composio | Key valid, 0 apps connected | Connect LinkedIn + Gmail in dashboard, fill `COMPOSIO_TOOL_ROUTER_URL` |
 | White paper | v1 at `docs/whitepaper.md` | Fill contact placeholders |
-| MCP wiring | Scaffolding ready | Populate `.env`, run `scripts/setup.sh` |
+| First outreach | Not started | Run `/sales research "ADHETEC"` (★★ top prospect) |
 
 ---
 
@@ -40,3 +40,4 @@ Bespoke Solutions — AI-native agency selling **"AI Employees as a Service"** t
 | Manufacturing in South of France first | Geography known, cluster data available |
 | Internal sales agent first | Build the tool we use before selling it |
 | Karpathy LLM Wiki | Knowledge compounds across sessions |
+| 3 verified data sources only | Recherche Entreprises + Aerospace Valley + France Travail. 6 others tested and dropped — see `wiki/research/prospect-manufacturing-bab.md` |
